@@ -129,3 +129,21 @@ hr{
 .bggreen{
     background-color: green;
 }
+
+.navmenu{
+    list-style-type: none;
+    color: white;
+}
+
+.headercontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.headbutton{
+    background-color: white;
+    border-radius: 15px;
+    font-size: 15px;
+}
