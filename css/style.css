@@ -122,8 +122,10 @@ hr{
     margin: 30px 0;
 }
 
-.bggray{
-    background-color: lightgray;
+.bgwave{
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .height500{
@@ -157,6 +159,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .bgdiscord{
