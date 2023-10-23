@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: lightblue;
+    background-color:#255EE8;
     height: 75px;
     padding: 10px 0;
 }
@@ -37,12 +37,16 @@ header{
     height: 50px;
 }
 
+.height476{
+    height: 476px;
+}
+
 .bgorange{
     background-color: orange;
 }
 
 main{
-    padding: 20px 0;
+   
 }
 
 .container-sm{
@@ -83,8 +87,8 @@ hr{
     border: 1px dashed white;
 }
 
-.col40{
-    width: 40%;
+.col50{
+    width: 50%;
 }
 
 .col60{
@@ -133,17 +137,43 @@ hr{
 .navmenu{
     list-style-type: none;
     color: white;
+    display: flex;
+    gap: 40px;
 }
 
 .headercontent{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .headbutton{
     background-color: white;
     border-radius: 15px;
     font-size: 15px;
+    padding: 8px;
+    border: none;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgdiscord{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+}
+
+.maincontent{
+   text-align: left;
+}
+
+.text{
+    color: white;
+    text-align: center;
 }
