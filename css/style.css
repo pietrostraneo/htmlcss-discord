@@ -70,13 +70,13 @@ main{
 }
 
 footer{
-    background-color: darkgray;
-    padding: 20px 0;
+    background-color: #23272A;
+    padding: 60px;
 }
 
 hr{
-    background-color: gray;
-    margin: 10px 0;
+    background-color: #7288DA;
+    margin: 10px auto;
 }
 
 .bgacquamarine{
@@ -113,10 +113,6 @@ hr{
     padding: 10px 0;
 }
 
-.bgblue{
-    background-color: darkblue;
-    padding: 20px 0;
-}
 
 .margin-y-30{
     margin: 30px 0;
@@ -130,6 +126,10 @@ hr{
 
 .height500{
     height: 500px;
+}
+
+.height300{
+    height: 300px;
 }
 
 .bggreen{
@@ -147,18 +147,36 @@ hr{
     display: flex;
 }
 
-.headbutton{
+.whitebutton{
     background-color: white;
     border-radius: 15px;
     font-size: 15px;
-    padding: 8px;
+    padding: 10px;
+    border: none;
+}
+
+.blackbutton{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.purplebutton{
+    background-color: #7288DA;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
     border: none;
 }
 
 .center{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 
@@ -170,13 +188,50 @@ hr{
 
 h1{
     color: white;
-}
-
-.maincontent{
-   text-align: left;
+    font-size: 50px;
 }
 
 .text{
     color: white;
     text-align: center;
+}
+
+.autoheight{
+    height: auto;
+}
+
+.purple{
+    color: #7288DA;
+    font-weight: bold;
+}
+
+.footermenu{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3.purple{
+    font-size: 30px;
+}
+
+.footercontent img{
+    width: 30px;
+}
+
+.italian{
+    color: white;
+    font-weight: bold;
+}
+
+.maincontent h2{
+    font-size: 40px;
+}
+
+.stars{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
 }
